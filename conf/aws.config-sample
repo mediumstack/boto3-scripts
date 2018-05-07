@@ -1,0 +1,9 @@
+aws:
+  access_key_id: blank
+  secret_access_key: blankblankblank
+  region_name: ap-southeast-2
+instance:
+  ami: ami-d38a4ab1
+  sg: sg-id
+  ssh_key: keyname
+  flavour: t2.micro
