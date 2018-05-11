@@ -4,7 +4,7 @@ import sys
 import yaml
 import boto3
 
-# break if no args give
+# break if no args given,
 # otherwise set the instance name var
 if len(sys.argv) == 1:
     print "Please provide an instance name, Eg:\n<script_name> my_new_instance"
