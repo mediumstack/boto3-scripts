@@ -24,3 +24,9 @@ Your region will be hardcoded in your conf/aws.config file.
 ```
 python check_instance_tags.py Name
 ```
+
+## [shell] List instances by state, with useful informtation
+Region is hardcoded in the script
+```
+bash list_instances.sh running
+```
