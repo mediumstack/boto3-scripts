@@ -40,7 +40,7 @@ def instances_without_tag(tag_key):
 def monitor(tag_key):
     """
     Logic to test and raise an error
-    if instances have no Name
+    if instances have no `tag`
     """
 
     # call the above function to generate the list
