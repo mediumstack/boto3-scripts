@@ -50,7 +50,6 @@ def monitor(tag_key):
     if len(instances) < 1:
         print "OK: All instances have %s tag." % tag_key
         sys.exit(0)
-
     
     elif len(instances) >= 1:
         print "ERROR: Some instances do not have %s tags. See below:\n" % tag_key, instances
